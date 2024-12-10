@@ -1,0 +1,7 @@
+	•	Training accuracy: Final value at epoch 100 (train acc: 0.5598).
+	•	Validation accuracy: Final value at epoch 100 (val acc: 0.3868).
+	•	Test accuracy: 0.3743
+
+
+    •	The Perceptron model seems to improve over the first ~80 epochs but struggles to generalize to unseen data, as reflected in the relatively low test accuracy.
+	•	The fluctuating validation accuracy suggests potential overfitting or limited capacity of the Perceptron model to handle the complexity of the dataset.

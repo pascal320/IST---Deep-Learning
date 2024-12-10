@@ -1,0 +1,11 @@
+Analysis of Results
+	1.	Training and Validation Accuracy:
+	•	The training accuracy steadily increases, showing that the model is learning patterns in the training dataset.
+	•	The validation accuracy fluctuates but improves somewhat, indicating that the model is generalizing to the validation dataset, though with some overfitting or noise.
+	2.	Weight Norm:
+	•	The norm of the weight matrix  W  increases as training progresses, which is expected because weights grow in magnitude during optimization.
+	3.	Final Test Accuracy:
+	•	The test accuracy ( 0.4597 ) reflects the model’s performance on unseen data. It’s lower than the training accuracy, which is typical and suggests some room for improvement.
+	4.	Plot:
+	•	The plot shows the variation in training and validation accuracy over epochs.
+	•	The difference between training and validation accuracy might indicate overfitting, which could be mitigated with techniques like  \ell_2 -regularization or a different learning rate.

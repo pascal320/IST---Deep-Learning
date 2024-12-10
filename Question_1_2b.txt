@@ -1,0 +1,12 @@
+Observations:
+	1.	With Regularization:
+	•	Smoother training curve and improved validation performance.
+	•	Final test accuracy increased from ~46% to ~50.53%, showing better generalization.
+	2.	Without Regularization:
+	•	Higher training accuracy variance and lower validation accuracy due to overfitting.
+	3.	Weight Norm:
+	•	Regularization kept weight norms smaller (~4.3), reducing overfitting.
+
+Conclusion:
+
+Regularization improved generalization, reducing overfitting and increasing test accuracy, demonstrating its effectiveness in this image classification task.
